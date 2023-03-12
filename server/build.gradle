@@ -1,0 +1,4 @@
+dependencies {
+    implementation project(':protobufs')
+    runtimeOnly "io.grpc:grpc-netty-shaded:${grpcVersion}"
+}
